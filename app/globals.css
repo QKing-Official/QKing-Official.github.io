@@ -5,7 +5,7 @@
 
 @layer base {
   html, body {
-    @apply bg-slate-800 min-h-screen text-slate-100;
+  @apply bg-slate-950 min-h-screen text-slate-100;;
   }
 }
 /*

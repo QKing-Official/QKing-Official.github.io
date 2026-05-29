@@ -1,5 +1,8 @@
 import "./globals.css";
 export default function Home() {
+    const orangeGlow = {
+    textShadow: "0 0 8px rgba(249, 115, 22, 0.9), 0 0 20px rgba(234, 88, 12, 0.5)"
+    };
   return (
 <div>
     <div>
@@ -7,7 +10,7 @@ export default function Home() {
     </div>
 
     <div>
-      <p className ="text-lg leading-relaxed"> I am a dutch developer who has a fascination for computers and everything around it.
+      <p style={orangeGlow} > I am a dutch developer who has a fascination for computers and everything around it.
         I have landed on programming really quickly because of that and I ain't stopping anytime soon!
       </p>
     </div>

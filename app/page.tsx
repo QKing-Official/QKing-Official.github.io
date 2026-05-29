@@ -7,7 +7,7 @@ export default function Home() {
     </div>
 
     <div>
-      <p> I am a dutch developer who has a fascination for computers and everything around it.
+      <p className ="text-lg leading-relaxed"> I am a dutch developer who has a fascination for computers and everything around it.
         I have landed on programming really quickly because of that and I ain't stopping anytime soon!
       </p>
     </div>

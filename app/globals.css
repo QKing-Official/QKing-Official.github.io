@@ -6,6 +6,8 @@
 @layer base {
   html, body {
   @apply bg-slate-950 min-h-screen text-slate-100;;
+  /* I hope this is orange glow and it looks good */
+  text-shadow: 0 0 8px rgba(249, 115, 22, 0.4);
   }
 }
 /*

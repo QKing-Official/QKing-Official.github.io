@@ -1,39 +1,15 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@layer base {
-  html, body {
-  @apply bg-slate-950 min-h-screen text-slate-100;;
-  /* I hope this is orange glow and it looks good */
-  text-shadow: 0 0 8px rgba(249, 115, 22, 0.4);
-  }
-}
-/*
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  background: none !important;
+  color: inherit !important;
 }
 
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html, body {
+  background-color: #020617;
+  color: #f1f5f9;
+  min-height: 100vh;
+  
+  text-shadow: 0 0 6px rgba(249, 115, 22, 0.7), 
+               0 0 16px rgba(234, 88, 12, 0.4);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-*/

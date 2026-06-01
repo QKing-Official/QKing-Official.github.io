@@ -1,4 +1,5 @@
 import "./globals.css";
+import Link from 'next/link';
 export default function Home() {
   return (
 <div>
@@ -6,17 +7,30 @@ export default function Home() {
     <h1 style={{ color: 'blue' }}> Welcome! </h1>
     </div>
 
-    <div>
+    <div className="bg-slate-950 text-amber-300 p-4 rounded-xl border-2 border-orange-500 shadow-[0_0_20px_rgba(249,115,22,0.6)]">
       <p> I am a dutch developer who has a fascination for computers and everything around it.
         I have landed on programming really quickly because of that and I ain't stopping anytime soon!
       </p>
     </div>
 
-    <hr></hr>
+    <br></br>
 
-    <div>
+    <div className="bg-slate-950 text-amber-300 p-4 rounded-xl border-2 border-orange-500 shadow-[0_0_20px_rgba(249,115,22,0.6)]">
       <h2> My projects</h2>
       <p> I have made a lot of projects so far and I am always looking for new challenges to take on!</p>
+    </div>
+    <br></br>
+    <div className="bg-slate-950 text-amber-300 p-4 rounded-xl border-2 border-orange-500 shadow-[0_0_20px_rgba(249,115,22,0.6)]">
+        <h2> OS </h2>
+        <p> This is my OS from scratch I've made in C and Assembly. It is a fully custom kernel with using the limine bootloader. </p>
+        <p> The OS has a little custom persistent filesyste, minimal GPU acceleration and a (maybe) functional desktop.</p>
+        <p> The os a custom app support and has tools required to run them.</p>
+        <Link 
+          href="https://github.com/QKing-Official/OS" 
+          className="inline-block mt-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 active:scale-95 text-white font-medium rounded-lg text-center no-underline transition"
+        >
+          Check it out on GitHub!
+        </Link>
     </div>
 </div>
 

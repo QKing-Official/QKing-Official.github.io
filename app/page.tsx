@@ -24,7 +24,7 @@ export default function Home() {
     <div className="bg-slate-950 text-amber-300 p-4 rounded-xl border-2 border-orange-500 shadow-[0_0_20px_rgba(249,115,22,0.6)]">
         <h2> OS </h2>
         <p> This is my OS from scratch I've made in C and Assembly. It is a fully custom kernel with using the limine bootloader. </p>
-        <p> The OS has a little custom persistent filesyste, minimal GPU acceleration and a (maybe) functional desktop.</p>
+        <p> The OS has a little custom persistent filesystem, minimal GPU acceleration and a (maybe) functional desktop.</p>
         <p> The os a custom app support and has tools required to run them.</p>
         <Link 
           href="https://github.com/QKing-Official/OS" 

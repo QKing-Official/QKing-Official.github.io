@@ -4,7 +4,8 @@ export default function Home() {
   return (
 <div>
     <div>
-    <h1 style={{ color: 'blue' }}> Welcome! </h1>
+    <h1 style={{ textAlign: 'center', color: 'blue' }}> Welcome! </h1>
+    <br></br>
     </div>
 
     <div className="bg-slate-950 text-amber-300 p-4 rounded-xl border-2 border-orange-500 shadow-[0_0_20px_rgba(249,115,22,0.6)]">
